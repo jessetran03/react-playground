@@ -16,6 +16,7 @@ class TheDate extends React.Component {
         }, 1000)
     }
     componentWillUnmount() {
+        console.log('exit')
         clearInterval(this.interval)
     }
     render() {
